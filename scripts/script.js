@@ -28,6 +28,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // CODE GOES HERE vvv
         newPost = new JournalEntry();
+        newPost.entry = entry;
         newPost.entry-title = entry.title;
         newPost.entry-date = entry.date;
         newPost.entry-content = entry.content;
